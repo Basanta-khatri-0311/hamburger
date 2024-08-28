@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #F6F0EB;
+body {
+  background-color: #f6f0eb;
   font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
@@ -16,16 +16,39 @@ header{
   padding: 24px 32px;
 }
 
-a{
+a {
   text-decoration-line: none;
 }
 
-nav a{
+nav a {
   font-weight: 700;
   font-size: 20px;
   color: rgba(73, 33, 24, 1);
 }
-nav{
-  display: flex;
-  gap: 60px;
+
+nav a + a {
+  margin-left: 60px;
 }
+main{
+  margin: 0 24px;
+}
+section {
+  margin-top: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+.image-container {
+  max-width: 1290px;
+  margin-inline: auto;
+}
+
+section p{
+  color: rgba(73, 33, 24, 1);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
