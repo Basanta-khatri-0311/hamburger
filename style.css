@@ -163,6 +163,10 @@ section h2 {
 }
 
 @media (max-width: 768px) {
+  .header-container{
+    min-height: 100px;
+  }
+
   header {
     background-color: #f6f0ebb7;
     backdrop-filter: blur(8px);
@@ -180,14 +184,20 @@ section h2 {
     display: none;
   }
 
-  .menu-open nav{
-    display: flex;
-  }
 
   nav a + a {
     margin: 0;
     margin-top: 16px;
   }
+
+  .menu-open nav{
+    display: flex;
+  }
+
+  .menu-open .hamburger-menu-container{
+    display: none;
+  }
+  
 
   .close-icon,
   .hamburger-menu-container {
