@@ -118,7 +118,7 @@ section h2 {
   .hero-section {
     margin-top: 32px;
   }
-  section{
+  section {
     margin-top: 42px;
   }
   .hero-section p {
@@ -128,7 +128,7 @@ section h2 {
     font-size: 14px;
   }
 }
-.close-icon{
+.close-icon {
   position: absolute;
   top: 8px;
   right: 12px;
@@ -136,10 +136,31 @@ section h2 {
   display: none;
 }
 
+.hamburger-menu-container {
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
 
+.hamburger-menu {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  cursor: pointer;
+}
 
-
-
+.hamburger-icon {
+  font-size: 32px;
+  position: absolute;
+  bottom: 32px;
+  left: 40px;
+}
 
 @media (max-width: 768px) {
   header {
@@ -156,12 +177,20 @@ section h2 {
     right: 0;
     top: 24px;
     padding: 24px;
+    display: none;
   }
+
+  .menu-open nav{
+    display: flex;
+  }
+
   nav a + a {
     margin: 0;
     margin-top: 16px;
   }
-  .close-icon{
+
+  .close-icon,
+  .hamburger-menu-container {
     display: block;
   }
 }
