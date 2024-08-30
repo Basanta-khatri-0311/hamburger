@@ -142,32 +142,32 @@ section h2 {
 .hamburger-menu-container {
   overflow: hidden;
   position: relative;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   display: none;
 }
 
 .hamburger-menu {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  top: -128px;
-  right: -128px;
+  top: -64px;
+  right: -58px;
   cursor: pointer;
 }
 
 .hamburger-icon {
-  font-size: 32px;
+  font-size: 16px;
   position: absolute;
-  bottom: 24px;
-  left: 35px;
+  bottom: 10px;
+  left: 20px;
 }
 
 @media (max-width: 768px) {
   .header-container{
-    min-height: 70px;
+    min-height: 40px;
   }
   
   header {
@@ -175,6 +175,7 @@ section h2 {
     backdrop-filter: blur(8px);
     position: sticky;
     top: 0;
+    padding: 8px 24px;
   }
   nav {
     position: absolute;
