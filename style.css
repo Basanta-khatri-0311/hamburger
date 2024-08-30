@@ -88,16 +88,18 @@ section h2 {
 }
 
 .go-to-top {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
   text-align: right;
   max-width: 1060px;
-  margin: 0 auto;
+  margin: 30px auto;
   font-size: 32px;
   margin-top: 80px;
+  background-color: bisque;
 }
-.go-to-top a {
-  text-decoration: underline;
-  color: rgba(73, 33, 24, 1);
-}
+
 
 @media (max-width: 1200px) {
   nav a {
