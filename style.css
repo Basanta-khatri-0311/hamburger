@@ -11,6 +11,7 @@ html {
 body {
   background-color: #f6f0eb;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -139,8 +140,8 @@ section h2 {
 .hamburger-menu-container {
   overflow: hidden;
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   display: none;
 }
 
@@ -150,23 +151,23 @@ section h2 {
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  top: -100px;
-  right: -100px;
+  top: -128px;
+  right: -128px;
   cursor: pointer;
 }
 
 .hamburger-icon {
   font-size: 32px;
   position: absolute;
-  bottom: 32px;
-  left: 40px;
+  bottom: 24px;
+  left: 35px;
 }
 
 @media (max-width: 768px) {
   .header-container{
-    min-height: 100px;
+    min-height: 70px;
   }
-
+  
   header {
     background-color: #f6f0ebb7;
     backdrop-filter: blur(8px);
@@ -178,10 +179,10 @@ section h2 {
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.9);
     flex-direction: column;
-    right: 0;
-    top: 24px;
+    right: -200px;
+    top: 16px;
     padding: 24px;
-    display: none;
+    transition: right 0.5s ease-in-out;
   }
 
 
@@ -191,7 +192,7 @@ section h2 {
   }
 
   .menu-open nav{
-    display: flex;
+    right: 24px;
   }
 
   .menu-open .hamburger-menu-container{
