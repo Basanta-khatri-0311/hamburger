@@ -184,7 +184,9 @@ section h2 {
     padding: 24px;
     transition: right 0.5s ease-in-out;
   }
-
+  .main-content{
+    overflow: hidden;
+  }
 
   nav a + a {
     margin: 0;
