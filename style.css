@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-html {
+.main-content{
+  overflow-x: hidden;
+  height: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -184,9 +186,7 @@ section h2 {
     padding: 24px;
     transition: right 0.5s ease-in-out;
   }
-  .main-content{
-    overflow: hidden;
-  }
+ 
 
   nav a + a {
     margin: 0;
@@ -205,5 +205,8 @@ section h2 {
   .close-icon,
   .hamburger-menu-container {
     display: block;
+  }
+  .go-to-top {
+    font-size: 16px;
   }
 }
