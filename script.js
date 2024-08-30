@@ -1,7 +1,7 @@
 const hamburgerIcon = document.querySelector('.hamburger-menu-container')
 const headerContainer = document.querySelector('.header-container')
 const closeIcon = document.querySelector('.close-icon')
-const clickToTop = document.querySelector('.go-to-top a')
+const clickToTop = document.querySelector('.go-to-top')
 const nav = document.querySelector('nav')
 const mainContent = document.querySelector('.main-content'); 
 
