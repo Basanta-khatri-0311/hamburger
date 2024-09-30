@@ -170,6 +170,22 @@ section h2 {
   left: 20px;
 }
 
+.heading{
+  color: #524c48 ;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table{
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 0px 20px 50px sandybrown;
+}
+
+
+
+
 @media (max-width: 768px) {
   .header-container{
     min-height: 40px;
